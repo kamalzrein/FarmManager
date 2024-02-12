@@ -1,0 +1,53 @@
+User class
+    Attributes:
+    - ID
+    - email
+    - password
+    - firstName
+    - lastName
+    - DOB
+    - taskList
+
+
+    Methods:
+    - constructor
+    - getID
+    - getEmail
+    - getPassword
+    - getFirstName
+    - getLastName
+    - getDOB
+    - getTaskList
+
+    - setID
+    - setEmail
+    - setPassword
+    - setFirstName
+    - setLastName
+    - setDOB
+    - addTask
+    - removeTask
+    - removeAllTasks
+    - toString
+
+
+
+Employee class
+    Attributes:
+    - (inherit from User class)
+
+    Methods:
+    - (inherit from User Class)
+    - toString
+
+
+
+
+Owner class
+    Attributes:
+    - (inherit from Employee class)
+    - toString
+
+    Methods:
+    - (inherit from Employee Class)
+    - toString

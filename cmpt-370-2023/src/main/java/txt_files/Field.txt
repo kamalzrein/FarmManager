@@ -1,0 +1,22 @@
+>> Field
+	(Attributes)
+	-String ID
+	-String Name
+	-String location
+	-double size
+	-Year current_year
+	-LinkedList<Year> years
+
+
+	(Methods)
+	-constructor(String ID, String fName, double size, String location)
+	-void newYear(int newYear, LocalDate newYearDate)
+	-Year getCurrent_year()
+	-LinkedList<Year> getYears()
+	-String get ID()
+	-String get name()
+	-void set name(new name)
+	-String get location()
+	-double get size()
+	-void set size(new size)
+	-String toString(Year)

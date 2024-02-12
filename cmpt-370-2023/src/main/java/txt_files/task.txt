@@ -1,0 +1,36 @@
+Task class:
+    Attributes:
+    - ID
+    - taskName
+    - description
+    - date
+    - dueDate
+    - status (status object)
+    - staffs
+    - (to be considered: priority, subTasks)
+
+    Methods:
+    - constructor
+    - getID
+    - getTaskName
+    - getDescription
+    - getDate
+    - getDueDate
+    - isCompleted
+    - isPaused
+    - inProgress
+    - getStaffs
+    - getStatus
+    - isOverDue
+
+    - setID
+    - setTaskName
+    - setDescription
+    - setDueDate
+    - markAsCompleted
+    - pauseTask
+    - setInProgress
+    - addStaffs
+    - removeStaff
+    - removeAllStaffs
+    - toString

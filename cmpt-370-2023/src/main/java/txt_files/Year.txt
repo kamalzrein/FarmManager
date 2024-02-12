@@ -1,0 +1,37 @@
+>>entities.Year
+	-int year
+	-Crop crop
+	-Date seeding_date
+	-Double seeding_rate
+	-Date spraying_date
+	-double fertilizer_rate;
+	-Chemical chemical_sprayed
+	-LinkedList<Chemical_record> chemical_records
+	-LinkedList<Task_record> task_records;
+	-Date harvest_date
+	-Date end_of_year
+	-Date new_year
+
+	(Methods)
+	 constructor( int _year, Date new_year_date)
+	 int getYear()
+	 Date getNewYearDate()
+	 Crop getCrop()
+	 void setCrop(Crop crop)
+	 Date getSeedingDate()
+	 void setSeedingDate(Date newDate)
+	 double getSeedingRate()
+	 void setSeedingRate(double newRate)
+	 double getFertilizerRate()
+	 void setFertilizerRate()
+	 Date getSprayingDate()
+	 Chemical getChemical_sprayed()
+	 Chemical spray_chemical(Chemical newChemical, Date newDate)
+	 LinkedList<Chemical_record> getChemical_records()
+	 void doTask(Task newTask, Date newTaskDate)
+	 LinkedList<Task_record> getTask_records()
+	 void harvest( Date harvestDate)
+	 Date getHarvest_date()
+	 Date getEnd_of_year()
+	 void endOfYear( Date endOfYearDate)
+	 public String toString()

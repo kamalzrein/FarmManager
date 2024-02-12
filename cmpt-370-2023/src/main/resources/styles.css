@@ -1,0 +1,19 @@
+/* styles.css */
+
+.button {
+    -fx-background-color: #3498db; /* Blue background */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 18px; /* Larger font size */
+    -fx-padding: 15 30; /* Increased padding */
+    -fx-border-color: #2980b9; /* Darker blue border color */
+    -fx-border-width: 3px; /* Thicker border width */
+    -fx-background-radius: 15; /* Rounded corners */
+    -fx-border-radius: 15; /* Rounded corners for the border */
+    -fx-cursor: hand; /* Change cursor on hover to indicate interactivity */
+    -fx-pref-width: 400px; /* Set the preferred width */
+}
+
+.button:hover {
+    -fx-background-color: #2ecc71; /* Darker green on hover */
+    -fx-border-color: #27ae60; /* Darker green border on hover */
+}
