@@ -14,7 +14,7 @@ import static com.mongodb.client.model.Filters.eq;
 public class DataFetch {
 
 
-    static String uri = "mongodb+srv://renegade70:zO2aNiJnxbRLLCwH@cluster0.3gqgbzx.mongodb.net/?retryWrites=true&w=majority";
+    static String uri = "AN_MDB_STRING";
 
     /**
      * grabs and return a string of values.
